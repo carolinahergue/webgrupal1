@@ -1,6 +1,11 @@
+h1 {
+  text-align: center;
+}
 img {
  margin-right: 15px;
  margin-left: 10px;
+ width: 5%;
+ height: 10%;
 }
 body {
  font-family: Times New Roman;
@@ -13,7 +18,7 @@ footer{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
   background-color: #ffffff;
   padding: 20px;
 }
@@ -24,3 +29,4 @@ footer{
   font-size: 30px;
   text-align: center;
 }
+
